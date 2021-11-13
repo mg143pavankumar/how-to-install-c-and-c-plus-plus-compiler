@@ -24,3 +24,27 @@
 mingw64/mingw-w64-x86_64-gcc 11.2.0-2 (mingw-w64-x86_64-toolchain) [installed]
     GNU Compiler Collection (C,C++,OpenMP) for MinGW-w64 
 ```
+
++ Now run ``` pacman -S mingw-w64-x86_64-gcc ``` for final installation.
+
+## Run below code to check weather it is installed or not
++ For c compiler,
+```
+$ gcc --version
+
+gcc.exe (Rev2, Built by MSYS2 project) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+## 🎉🎉Congratulation you had finally installed C/C++ compiler🎉🎉
+
++ For C++ compiler,
+```
+$ g++ --version
+g++.exe (Rev2, Built by MSYS2 project) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
