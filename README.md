@@ -9,3 +9,18 @@
 
 ## or you can click below link to go directly to installation page
 <a href = "https://www.msys2.org/">Click me 😊</a>
+
++ After downloading install the downloaded file by double click on that file.
++ When the installation window opens click on ```Next Next ...``` then ```finish``` but before finish make sure that you had ☑️ ```Run MSYS2 64bit now```.
++ After that it pop-up a terminal,
+
+## Run below code
++ In pop-up termainl type ```pacman -Syu``` for updating package database and base package.
++ After that close the terminal and search for ```MSYS2 MinGW 64-bit``` and open it.
++ Now run ```pacman -Su``` to update the rest of the base packages.
++ Then run ```pacman -Ss gcc``` for seeing all types of compilers
++ Search for 
+```
+mingw64/mingw-w64-x86_64-gcc 11.2.0-2 (mingw-w64-x86_64-toolchain) [installed]
+    GNU Compiler Collection (C,C++,OpenMP) for MinGW-w64 
+```
