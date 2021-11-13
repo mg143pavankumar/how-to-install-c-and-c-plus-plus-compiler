@@ -47,4 +47,15 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
+## After installation, it's time to setup Environment variable
++ Open window Explorer and go to ```C drive``` and open ```msys64``` folder.
++ Then open ```mingw64``` folder and then ```bin``` folder.
++ Copy path of bin folder ```C:\msys64\mingw64\bin```.
++ Search for ```system environment variables``` and open it.
++ Now click on ```Environment variables``` button.
++ Then under system variable select ```path``` and click on edit.
++ Click on new and paste path of bin folder which we had copied earlier i.e., ```C:\msys64\mingw64\bin```.
++ Then click on ```Ok .. Ok ... Ok```.
+
+
 ## 🎉🎉Congratulation you had finally installed C/C++ compiler🎉🎉
